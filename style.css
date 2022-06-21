@@ -52,9 +52,9 @@ nav ul li{
     width: 80%;
     border-radius: 10px;
     padding: 34px;
-    background-image: url(bg.jpg);
+    background-image: url(bg.jpg); 
+    background-size: contain;
 }
-
 .bottom{
     position: sticky;
     height: 100px;
@@ -65,6 +65,7 @@ nav ul li{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* background-repeat:repeat; */
 }
 
 
